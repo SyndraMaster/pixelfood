@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: 'Roboto Mono', monospace
+}
+body {
+    position: relative;
+    &.no-scroll {
+        overflow: hidden;
+    }
+}
+img {
+    image-rendering: pixelated;
+}
+
+h5, h1, h3, h4 {
+    font-family: 'Silkscreen', cursive;
+
+}
+h5 {
+    font-size: 1.3rem;
+}
+h2 {
+    text-align: center;
+    width: 100%;
+    margin: 40px 0;
+    color: #cf5241;
+    text-transform: uppercase;
+}
+header {
+    background-color: #79e4c9;
+    height: 70px;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    position: relative;
+    img {
+        position: absolute;
+        right: 20px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+}
+.descripcion {
+    width: 50%;
+    max-width: 800px;
+    padding: 20px ;
+    background-color: #79e4c9;
+    margin-right: 20px;
+    a {
+        color: #cf5241;
+    }
+}
+.comprar {
+    padding: 5px 10px;
+    background-color: #cf5241;
+    outline: none;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 0 5px 0 #803126;
+}
+.container {
+    padding: 20px;
+    h5, h4 {
+        margin: 3px;
+    }
+}
+@import 'banner';
+@import 'menu';
+@import 'carrito';
+@import 'producto-semana';
+@import 'chef';
+@import 'footer';
+@import 'shopping-cart';
+

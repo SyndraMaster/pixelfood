@@ -1,0 +1,20 @@
+.menu {
+    .items {
+        margin: auto;
+        max-width: 1000px;
+        display: grid;
+        width: 100%;
+        align-content: center;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 5px;
+        justify-content: center;
+        article {
+            background-color: #79e4c9;
+            text-align: center;
+            padding: 10px;
+            img {
+                width: 100px;
+            }
+        }
+    }
+}

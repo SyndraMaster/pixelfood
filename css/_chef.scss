@@ -1,0 +1,29 @@
+.nuestro-chef {
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    article {
+        margin-left: 0;
+        height: 100%;
+    }
+    img {
+        // width: 25%;
+        height: 100%;
+        margin: auto;
+    }
+    h4 {
+        font-size: 2rem;
+    }
+    .img-container {
+        height: 350px;
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
